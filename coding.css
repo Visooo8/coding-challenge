@@ -1,0 +1,73 @@
+body{
+ background-image: url(background.jpg);
+ background-size: cover;
+ font-family:monospace;
+}
+
+.container{
+width: 1000px;
+  background-color: rgba(	0,0,0, 0.5);
+padding: 50px;
+margin: auto;
+  height:800px;
+border-radius: 20px;
+  }
+/* logo lime */
+.logo{
+  height: 120px;
+  width:250px;
+}
+/* titolo principale */
+.titolo{
+  color: lime;
+text-align: center;
+}
+/* colore prima striscia */
+.colore{
+  background-color: lime;
+height:25px;
+  position: relative;
+  padding: 10px;
+}
+/* posizione button */
+button{
+  margin: 0;
+}
+
+.nome{
+  display: inline-block;
+}
+/* colore testo nel main */
+main{
+  color: white;
+}
+/* banda arancione caricamento */
+.arancione{
+  border-radius: 5px;
+  background-color:orange;
+  height: 30px;
+  width: 30%;
+}
+/* banda verde caricamento */
+.verde{
+  background-color: limegreen;
+  border-radius: 5px;
+  height: 30px;
+  width: 65%;
+}
+/* banda rossa caricamento */
+.rosso{
+  background-color: red;
+  border-radius: 5px;
+  height: 30px;
+  width: 12%;
+}
+/* spazio tra le p */
+p{
+  margin: 2px;
+  font-size: 19px;
+}
+/* spazio tra gli h1 */
+h1{
+  margin-bottom: 0px;
+}
